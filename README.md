@@ -7,5 +7,4 @@ This repo hosts the Kicad version of the schematic from cobrasov.org.
 
 © 2022 The Cismas Foundation   
   
-![TS mainboard](https://github.com/ceteras/TS/blob/main/img/TS.jpg?raw=true)
-
+![TS mainboard](https://github.com/ceteras/Turbo-Spectrum/blob/main/img/TS.jpg?raw=true)
