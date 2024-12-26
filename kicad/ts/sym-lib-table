@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Cobra_original")(type "KiCad")(uri "${KIPRJMOD}/lib/cobra.kicad_sym")(options "")(descr ""))
+)
