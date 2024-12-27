@@ -4713,6 +4713,17 @@
 		)
 		(uuid "8fa9d4d8-6752-4788-a731-e2753504b0f9")
 	)
+	(label "~{WAIT}"
+		(at 90.805 108.585 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "915e9fcf-4c50-4a33-b768-b146655dd01e")
+	)
 	(label "A15"
 		(at 42.545 267.335 180)
 		(fields_autoplaced yes)
