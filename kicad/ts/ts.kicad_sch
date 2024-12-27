@@ -2141,6 +2141,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 153.035) (xy 88.265 153.035)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ffcaaba-2546-43e0-bef8-969df3ad1b7c")
+	)
+	(wire
+		(pts
 			(xy 86.36 185.42) (xy 158.75 185.42)
 		)
 		(stroke
@@ -2508,6 +2518,16 @@
 			(type default)
 		)
 		(uuid "445f147b-c62b-4d9a-b125-23f6042a0bcb")
+	)
+	(wire
+		(pts
+			(xy 81.28 144.78) (xy 88.265 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4491a07d-226d-454f-b028-dded2590ed61")
 	)
 	(wire
 		(pts
@@ -4342,6 +4362,17 @@
 		(uuid "532ef91d-3188-4217-bfc6-f3fc26cb777b")
 	)
 	(label "SM"
+		(at 88.265 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53513af0-5598-4a9a-8ae9-ea76615418c7")
+	)
+	(label "SM"
 		(at 42.545 120.015 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4461,6 +4492,17 @@
 			(justify right bottom)
 		)
 		(uuid "66a0fa25-4944-49b7-869f-75dca740ccaa")
+	)
+	(label "CK"
+		(at 88.265 153.035 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66e47fc2-8945-486e-bac0-4038942e4d39")
 	)
 	(label "~{MREQ}"
 		(at 133.985 92.075 180)
@@ -6451,6 +6493,26 @@
 				(justify right)
 			)
 			(uuid "eb627a40-ac46-47c5-91a1-1ff04ee56a6f")
+		)
+		(pin "SM" output
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b87d6f1f-be50-402d-b5f8-7cf70732d445")
+		)
+		(pin "CK" output
+			(at 81.28 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cb0f2ca9-0418-4558-a37b-d5fb91160304")
 		)
 		(instances
 			(project "ts"
