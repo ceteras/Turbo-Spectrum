@@ -2231,6 +2231,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 123.825) (xy 90.805 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d04dba-b476-49cd-9d30-236ec67cb544")
+	)
+	(wire
+		(pts
 			(xy 36.83 76.835) (xy 42.545 76.835)
 		)
 		(stroke
@@ -3957,6 +3967,17 @@
 		)
 		(uuid "10eb1115-81f7-4d5e-bc9a-be66db245e8b")
 	)
+	(label "~{IORD}"
+		(at 90.805 123.825 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18884904-b1bb-4328-b4ac-6338cb4d9374")
+	)
 	(label "A0"
 		(at 42.545 153.035 180)
 		(fields_autoplaced yes)
@@ -5339,7 +5360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Cobra_original:DIN41612_R_3x32_Male_Horizontal_THT"
+		(property "Footprint" "Cobra_original:DIN41612_R_3x32_Male_Horizontal_THT_REV"
 			(at 29.21 149.225 0)
 			(effects
 				(font
@@ -6420,6 +6441,16 @@
 				(justify right)
 			)
 			(uuid "fec84d8b-01a4-4382-b38b-49a21c2eda8e")
+		)
+		(pin "~{IORD}" output
+			(at 81.28 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eb627a40-ac46-47c5-91a1-1ff04ee56a6f")
 		)
 		(instances
 			(project "ts"
