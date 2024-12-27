@@ -8598,7 +8598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cobra_original:Reset_Switch"
+		(property "Footprint" "Cobra_original:Reset_Switch3p"
 			(at 37.465 92.075 0)
 			(effects
 				(font

@@ -1,0 +1,170 @@
+(footprint "Reset_Switch3p"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SW1"
+		(at 7.747 2.3368 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b80a97a6-8d6a-4cfc-a276-8c08586cb850")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT_312"
+		(at 0 1.802 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cf5968a4-b3bf-42d4-b24c-503f3ab61354")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Cobra_original:Reset_Switch3p"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15f5d560-dd4d-4cf4-9cb2-78ac6d1f3d00")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ea29fc0-9e11-44c7-b701-f13f3f499e88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Switch, single pole double throw"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78f71e39-3dcf-4ee8-895c-93638bbb1f95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 -12.5)
+		(end 17.5 -12.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "26c22c21-50d0-419d-82a4-b4810396dd29")
+	)
+	(fp_line
+		(start -2.5 -2)
+		(end -2.5 -12.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f90d9d2a-2012-4903-bc07-f2b7819b9514")
+	)
+	(fp_line
+		(start 17.5 -12.5)
+		(end 17.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "702cc069-9279-41cd-9b8a-a42ea64a4c63")
+	)
+	(fp_line
+		(start 17.5 -2)
+		(end -2.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8f956ac9-e67a-4af3-9914-936e6d1f59a7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.302 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1f095903-f888-47b9-9593-7b43905cc1d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 15.24 -0.254)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "379d0371-aa5e-489a-96f7-48d6bdec40a0")
+	)
+	(pad "2" thru_hole circle
+		(at 6.731 -0.254)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "17454db1-e771-4e93-895e-84a8a178cf3b")
+	)
+	(pad "3" thru_hole circle
+		(at -0.7366 -0.254)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5eeaa4a9-e230-42b5-8405-15bbbb7b9012")
+	)
+	(pad "5" thru_hole circle
+		(at 2.54 -5.08)
+		(size 3.8 3.8)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5558ddb3-5d47-40cf-9166-3e60bf468b55")
+	)
+	(pad "6" thru_hole circle
+		(at 12.065 -5.08)
+		(size 3.8 3.8)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a8596149-703a-4b8b-b73d-2f18a064bba2")
+	)
+	(model "${KIPRJMOD}/3D/Dual_Reset.step"
+		(offset
+			(xyz 12.065 5.08 6.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
