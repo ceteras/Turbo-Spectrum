@@ -5339,7 +5339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_DIN:DIN41612_R_3x32_Male_Horizontal_THT"
+		(property "Footprint" "Cobra_original:DIN41612_R_3x32_Male_Horizontal_THT"
 			(at 29.21 149.225 0)
 			(effects
 				(font

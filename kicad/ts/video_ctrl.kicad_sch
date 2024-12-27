@@ -9487,7 +9487,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 116.205 204.47 0)
 			(effects
 				(font
@@ -10833,7 +10833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "882dd084-3a46-4dd6-945d-ab3d57b4e76c")
-		(property "Reference" "U1"
+		(property "Reference" "N5"
 			(at 162.2141 95.25 0)
 			(effects
 				(font
@@ -10911,7 +10911,7 @@
 		(instances
 			(project ""
 				(path "/13135b82-690b-4b84-a983-6756320cca7f/27c04af6-a892-4501-9f89-03b445cabf22"
-					(reference "U1")
+					(reference "N5")
 					(unit 1)
 				)
 			)
@@ -11784,7 +11784,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 67.945 222.885 0)
 			(effects
 				(font
@@ -12055,7 +12055,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 116.205 184.785 0)
 			(effects
 				(font
