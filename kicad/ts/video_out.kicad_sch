@@ -9386,7 +9386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+		(property "Footprint" "Cobra_original:CONN_L77HDE15SD1CH4FVGA_AMP"
 			(at 139.7 191.77 0)
 			(effects
 				(font
@@ -9395,7 +9395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/l77hde15sd1ch4fvga.pdf"
 			(at 139.7 191.77 0)
 			(effects
 				(font
@@ -9404,7 +9404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "15-pin male plug socket D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"
+		(property "Description" "15-pin male plug socket D-SUB connector, L77HDE15SD1CH4FVGA on Mouser"
 			(at 163.83 201.93 0)
 			(effects
 				(font
