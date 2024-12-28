@@ -9129,6 +9129,7 @@
 	(symbol
 		(lib_id "74xx:74LS08")
 		(at 116.205 225.425 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9144,7 +9145,7 @@
 			)
 		)
 		(property "Value" "74LS08"
-			(at 115.57 230.505 0)
+			(at 115.57 220.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
