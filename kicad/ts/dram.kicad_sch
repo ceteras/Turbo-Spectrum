@@ -1895,7 +1895,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 222.25) (xy 88.9 222.25)
+			(xy 83.185 219.71) (xy 88.9 219.71)
 		)
 		(stroke
 			(width 0)
@@ -2225,7 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 219.71) (xy 88.9 219.71)
+			(xy 83.185 222.25) (xy 88.9 222.25)
 		)
 		(stroke
 			(width 0)
@@ -3311,7 +3311,7 @@
 		(uuid "8db02a32-f505-40f7-bcaf-2dde0b53ded3")
 	)
 	(label "~{DRD}"
-		(at 83.185 219.71 0)
+		(at 83.185 222.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3399,7 +3399,7 @@
 		(uuid "95f8778b-314e-4825-bde8-b3a3ac408db9")
 	)
 	(label "CK3D"
-		(at 83.185 222.25 0)
+		(at 83.185 224.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3619,7 +3619,7 @@
 		(uuid "c7fc52dc-3095-4f3f-bf74-de65f5b9d0a6")
 	)
 	(label "CK3D"
-		(at 83.185 222.25 0)
+		(at 83.185 219.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3973,7 +3973,7 @@
 	)
 	(hierarchical_label "CK3D"
 		(shape input)
-		(at 83.185 222.25 180)
+		(at 83.185 219.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4045,7 +4045,7 @@
 	)
 	(hierarchical_label "~{DRD}"
 		(shape input)
-		(at 83.185 219.71 180)
+		(at 83.185 222.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
