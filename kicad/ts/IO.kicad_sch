@@ -7148,7 +7148,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 129.54 201.93 270)
+		(at 129.54 201.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7156,7 +7156,7 @@
 		(dnp no)
 		(uuid "c0424299-30a3-4195-975b-8810be04e05e")
 		(property "Reference" "DTO1"
-			(at 133.985 201.295 90)
+			(at 133.985 202.565 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7164,7 +7164,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 135.255 203.2 90)
+			(at 135.255 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,7 +7657,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 125.73 201.93 90)
+		(at 125.73 201.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7665,7 +7665,7 @@
 		(dnp no)
 		(uuid "e17eb104-3bee-4aaa-9827-a2afc9ae6aff")
 		(property "Reference" "DTO0"
-			(at 121.285 201.295 90)
+			(at 121.285 202.565 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7673,7 +7673,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 120.015 203.2 90)
+			(at 120.015 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
